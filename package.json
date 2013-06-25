@@ -1,0 +1,33 @@
+{
+  "name": "bikeshed",
+  "description": "apply code style conversions",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/bikeshed",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/bikeshed.git"
+  },
+  "dependencies": {
+    "iterate": "0.0.2",
+    "event-stream": "~3.0.4",
+    "optimist": "~0.3.4"
+  },
+  "devDependencies": {
+    "tap": "0.3.0"
+  },
+  "scripts": {
+    "test": "tap test"
+  },
+  "bin": {
+    "bikeshed": "./index.js"
+  },
+  "author": {
+    "name": "'Dominic Tarr'",
+    "email": "dominic.tarr@gmail.com",
+    "url": "http://dominictarr.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominictarr/bikeshed/issues"
+  },
+}
